@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
 }
+body{
+    display: block;
+}
 nav{
     list-style-type: none;
     text-align: center;
     background-color: blue;
     padding: 5%;
-    position: fixed;
-    
-    
+    display: block;   
 }
 
 nav li{
@@ -24,6 +25,28 @@ nav li a{
 }
 
 nav img{
+    height: 15%;
+    width: 15%;
+}
+.info{
+    padding: 10px;
+    background-color: olive;
+    text-align: center;
+}
+
+.info img{
+    height: 33%;
+    width: 33%;
+    border-radius: 15px;
+    
+}
+
+.info li{
+    text-decoration: none;
+    display: inline;
+}
+
+.info img{
     height: 15%;
     width: 15%;
 }
