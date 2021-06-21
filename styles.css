@@ -9,8 +9,9 @@ nav{
     list-style-type: none;
     text-align: center;
     background-color: blue;
-    padding: 5%;
-    display: block;   
+    padding: 2px;
+    display: block; 
+    height: 10%;  
 }
 
 nav li{
