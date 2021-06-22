@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 body{
     display: block;
@@ -12,6 +14,10 @@ nav{
     padding: 2px;
     display: block; 
     height: 10%;  
+    float: top;
+    position: relative;
+    width: 100%;
+    top: 0;
 }
 
 nav li{
@@ -25,29 +31,65 @@ nav li a{
     padding: 2px 7px 2px 7px;
 }
 
-nav img{
-    height: 15%;
-    width: 15%;
-}
+
 .info{
     padding: 10px;
     background-color: olive;
     text-align: center;
 }
 
-.info img{
-    height: 33%;
-    width: 33%;
-    border-radius: 15px;
+.profpic{
+    height: 195px;
+    width: 195px;
+    border-radius: 50%;
     
 }
 
 .info li{
     text-decoration: none;
     display: inline;
+    color : white
 }
 
-.info img{
+.icon{
     height: 15%;
     width: 15%;
+    margin: 0 10px;
+}
+
+.infotitle{
+    font-size: 1.625em;
+    margin-bottom: .688em;
+    margin-top: 0;
+    font-weight: 700;
+    line-height: 1.1;
+    box-sizing: border-box;
+    text-align: center;
+    color: inherit
+}
+
+.infotext{
+    color: inherit;
+    opacity: .65;
+    font-size: 1.143em;
+    margin : 0 0 22px;
+}
+
+h2{
+    margin: 20px;
+    line-height: 1.1;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+h3{
+    margin: 30px;
+}
+
+p{
+    margin: 10px;
+    box-sizing: border-box;
+    line-height: 1.875em;
+    font-size: 16px;
 }
