@@ -93,3 +93,45 @@ p{
     line-height: 1.875em;
     font-size: 16px;
 }
+
+img{
+    width: 100%;
+    text-align: center;
+}
+
+.projects{
+    text-align: center;
+}
+
+.contacto{
+    margin: 0 0 22px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.4em;
+    display: block;
+    
+}
+
+.formulario{
+    text-align: center;
+    display: block;
+    margin: 0 0 10px;
+    
+    
+}
+
+.formulario label {
+    margin: 10px;
+    
+    
+}
+
+.formulario input{
+    width: 50%;
+    align-items: right;
+}
+
+.formulario textarea{
+    width: 50%;
+    align-items: right;
+}
