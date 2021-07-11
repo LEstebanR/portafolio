@@ -1,3 +1,9 @@
+/* Colors:
+Header #334257
+Titles #476072
+Card #548CA8
+Background #EEEEEE */
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +12,8 @@
 }
 body{
     display: block;
+    background-color: #EEEEE;
+
 }
 nav{
     list-style-type: none;
@@ -13,11 +21,14 @@ nav{
     background-color: blue;
     padding: 2px;
     display: block; 
-    height: 10%;  
+    height: 50px;  
     float: top;
     position: relative;
     width: 100%;
     top: 0;
+    background-color: #334257;
+    position: fixed;
+    
 }
 
 nav li{
@@ -34,8 +45,10 @@ nav li a{
 
 .info{
     padding: 10px;
-    background-color: olive;
+    background-color:  #548CA8;
     text-align: center;
+    margin-top: 50px; 
+    
 }
 
 .profpic{
@@ -52,8 +65,8 @@ nav li a{
 }
 
 .icon{
-    height: 15%;
-    width: 15%;
+    height: 2.5em;
+    width: 2.5em;
     margin: 0 10px;
 }
 
@@ -71,8 +84,8 @@ nav li a{
 .infotext{
     color: inherit;
     opacity: .65;
-    font-size: 1.143em;
-    margin : 0 0 22px;
+    font-size: 1em;
+    margin : 0 0 12px;
 }
 
 h2{
@@ -81,6 +94,7 @@ h2{
     box-sizing: border-box;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    color: #476072 ;
 }
 
 h3{
@@ -134,4 +148,40 @@ img{
 .formulario textarea{
     width: 50%;
     align-items: right;
+}
+
+@media (min-width: 992px){
+ .info{
+     float: left;
+     width: 28%;
+     box-sizing: border-box;
+     position : fixed;
+     padding: 10px;
+     left: 10px;
+     top: 10px;
+     margin-top: 10px;
+
+ } 
+
+ nav{
+     float: right;
+     right: 1px;
+     z-index: 4;
+     width: 6%;
+     position: fixed;
+     height: 100%;
+     text-align: center;
+ }
+
+ .resume{
+     width: 60%;
+     margin-left: 30%;
+     margin-right: 10%;
+     
+ }
+
+ .icon{
+     margin : 20px 0 20 0
+ }
+
 }
