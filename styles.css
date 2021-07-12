@@ -12,7 +12,8 @@ Background #EEEEEE */
 }
 body{
     display: block;
-    background-color: #EEEEE;
+    background-color: #EEEEEE;
+    
 
 }
 nav{
@@ -174,6 +175,7 @@ img{
      text-align: center;
      display: flex;
      align-items:start;
+     align-content: center;
      
  }
 
@@ -191,4 +193,9 @@ img{
      height: 40px;
      display: block;
  }
+ 
+ ul{
+     list-style-type: none;
+ }
+
 }
